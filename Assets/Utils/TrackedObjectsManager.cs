@@ -2,12 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
 using Object = UnityEngine.Object;
 
 namespace Assets.Utils
 {
-    class TrackedObjectsManager
+    class TrackedObjectsManager : MonoBehaviour
     {
+        public void Start()
+        {
+
+        }
         private readonly IDictionary<ARMarker, ICollection<ARTrackedObject>> objectsForMarkers;
 
         private TrackedObjectsManager()

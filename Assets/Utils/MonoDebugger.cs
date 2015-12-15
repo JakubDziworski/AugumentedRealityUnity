@@ -4,37 +4,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-public class MonoDebugger : MonoBehaviour
+public class MonoDebugger : Singleton<MonoDebugger>
 {
     private IDictionary<string, string> consoleLog;
-
-    #region SingletonBoilerPlate
-    private static MonoDebugger mInstance;
-    public static MonoDebugger Instance
-    {
-        get
-        {
-            if (mInstance == null)
-            {
-                var obj = new GameObject("MonoDebuggerHelper");
-                mInstance = obj.AddComponent<MonoDebugger>();
-                mInstance.Start();
-            }
-            return mInstance;
-        }
-    }
-    #endregion SingletonBoilerPlate
 
     public void Awake()
     {
         consoleLog = new Dictionary<string, string>();
-    }
-
-
-    // Use this for initialization
-    void Start()
-    {
-        
     }
 
     public void printForKey(string key, string value)
