@@ -6,6 +6,14 @@ using UnityEngine.UI;
 
 public class Puppet : MonoBehaviour
 {
+    enum State
+    {
+        Invisible,
+        Idle,
+        Greeting
+    }
+
+    private State state;
     private const float minDistanceToExitGreet = 7f; //Minimum distance to greet when leaving
     private const float minDistanceToEnterGreet = 5f; //Minimum distance to greet when entering
     public static float minDistanceToGreet = minDistanceToEnterGreet; //Minimum distance able to trigger greet 
@@ -19,43 +27,48 @@ public class Puppet : MonoBehaviour
     {
         updateAction = InvisibleUpdate;
         defaultLocalRotation = transform.localRotation;
-    } 
+    }
 
 
-    
     public void SetInvisible()
     {
+        if (state == State.Invisible) return;
         SetIdle();
         updateAction = InvisibleUpdate;
+        state = State.Invisible;;
     }
 
     public void SetIdle()
     {
+        if (state == State.Idle) return;
         mGreeter = null;
-        SetGreetingPopUpEnabled(false);
         minDistanceToGreet = minDistanceToEnterGreet;
         updateAction = IdleUpdate;
+        HideGreetingBubble();
+        state = State.Idle;
     }
 
     public void SetGreeting(Puppet greeter)
     {
-        if(greeter == null)  throw new ArgumentException("greeter cannot be null");
-        if (greeter == mGreeter) return;
+        if (state == State.Greeting) return;
+        if (greeter == null) throw new ArgumentException("greeter cannot be null");
         mGreeter = greeter;
-        SetGreetingPopUpEnabled(true);
+        ShowGreetingBubble();
         minDistanceToGreet = minDistanceToExitGreet;
         Animation.Play();
         updateAction = GreetUpdate;
+        state = State.Greeting;
     }
 
-    private void SetGreetingPopUpEnabled(bool show)
+    private void ShowGreetingBubble()
     {
-        var firstOrDefault = GetComponentsInChildren<Canvas>(true).FirstOrDefault();
-        if (firstOrDefault != null) firstOrDefault.gameObject.SetActive(show);
-        if (show)
-        {
-            GetComponentInChildren<Text>().text = "Greetings " + mGreeter.name;
-        }
+        GetComponentInChildren<Bubble>().Show();
+        GetComponentInChildren<Text>().text = "Greetings " + mGreeter.name;
+    }
+
+    private void HideGreetingBubble()
+    {
+        GetComponentInChildren<Bubble>().Hide();
     }
 
     private void OnMarkerLost(ARMarker marker)
@@ -98,7 +111,7 @@ public class Puppet : MonoBehaviour
     protected virtual void IdleUpdate()
     {
         CheckIfShouldGreet();
-        transform.localRotation = Quaternion.Slerp(transform.localRotation, defaultLocalRotation, Time.deltaTime*turningSpeed);
+        transform.localRotation = Quaternion.Slerp(transform.localRotation, defaultLocalRotation, Time.deltaTime * turningSpeed);
     }
 
     protected virtual void GreetUpdate()
@@ -112,7 +125,7 @@ public class Puppet : MonoBehaviour
     private void CheckIfShouldGreet()
     {
         Puppet candidate = Utils.GetClosestObject(this, minDistanceToGreet); //Check if objects are near each other. this fun returns null if not
-        if(candidate != null) SetGreeting(candidate);
+        if (candidate != null) SetGreeting(candidate);
         else SetIdle();
     }
 
@@ -124,6 +137,6 @@ public class Puppet : MonoBehaviour
             output += " | distance to " + mGreeter.name + " " + " " +
                       Vector3.Distance(mGreeter.transform.position, transform.position);
         }
-        MonoDebugger.Instance.printForKey(name + " state", output);
+        //MonoDebugger.Instance.printForKey(name + " state", output);
     }
 }
