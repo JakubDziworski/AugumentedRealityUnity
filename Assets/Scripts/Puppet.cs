@@ -19,6 +19,7 @@ public class Puppet : MonoBehaviour
     public static float minDistanceToGreet = minDistanceToEnterGreet; //Minimum distance able to trigger greet 
     public static float turningSpeed = 3.0f; //Determines how fast objects rotate toward each other while greeting
     public Animation Animation;
+    public Bubble2d speechBubble;
     private Puppet mGreeter;
     private Action updateAction;
     private Quaternion defaultLocalRotation;
@@ -62,13 +63,13 @@ public class Puppet : MonoBehaviour
 
     private void ShowGreetingBubble()
     {
-        GetComponentInChildren<Bubble>().Show();
-        GetComponentInChildren<Text>().text = "Greetings " + mGreeter.name;
+        speechBubble.Show();
+        speechBubble.GetComponentInChildren<Text>().text = "Greetings " + mGreeter.name;
     }
 
     private void HideGreetingBubble()
     {
-        GetComponentInChildren<Bubble>().Hide();
+        speechBubble.Hide();
     }
 
     private void OnMarkerLost(ARMarker marker)
