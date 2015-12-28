@@ -10,9 +10,12 @@ namespace Assets.Scripts
 
         public static bool Overlaps(this RectTransform thisRectTransform,RectTransform otherRectTransform)
         {
-            Rect thisRectangle = new Rect(thisRectTransform.position,thisRectTransform.rect.size);
-            Rect otherRectangle = new Rect(otherRectTransform.position, otherRectTransform.rect.size);
-            return thisRectangle.Overlaps(otherRectangle);
+            return thisRectTransform.toRect().Overlaps(otherRectTransform.toRect());
         }
+
+        public static Rect toRect(this RectTransform rectTransform)
+        {
+            return new Rect(rectTransform.position, rectTransform.rect.size);
+        } 
     }
 }

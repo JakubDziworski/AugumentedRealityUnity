@@ -3,18 +3,20 @@ using System.Collections;
 
 public class Follower : MonoBehaviour
 {
-
     public GameObject target;
+    public Camera camera;
     private Vector3 offset;
-	// Use this for initialization
-	void Start ()
+    private RectTransform rectTransform;
+    // Use this for initialization
+	void Awake ()
 	{
 	    offset = gameObject.transform.position - target.transform.position;
+	    rectTransform = GetComponent<RectTransform>();
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
-	    transform.position = target.transform.position + offset;
+        rectTransform.position = camera.WorldToScreenPoint(target.transform.position);
 	}
 }

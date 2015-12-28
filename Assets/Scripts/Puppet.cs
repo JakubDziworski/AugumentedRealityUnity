@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Linq;
 using Assets.Utils;
 using UnityEngine.UI;
+using Assets.Utils;
 
 public class Puppet : MonoBehaviour
 {
@@ -13,13 +14,15 @@ public class Puppet : MonoBehaviour
         Greeting
     }
 
+    public Animation Animation;
+    public GameObject bubblePrefab;
+
     private State state;
     private const float minDistanceToExitGreet = 7f; //Minimum distance to greet when leaving
     private const float minDistanceToEnterGreet = 5f; //Minimum distance to greet when entering
     public static float minDistanceToGreet = minDistanceToEnterGreet; //Minimum distance able to trigger greet 
-    public static float turningSpeed = 3.0f; //Determines how fast objects rotate toward each other while greeting
-    public Animation Animation;
-    public Bubble2d speechBubble;
+    private static float turningSpeed = 3.0f; //Determines how fast objects rotate toward each other while greeting
+    private Bubble2d speechBubble;
     private Puppet mGreeter;
     private Action updateAction;
     private Quaternion defaultLocalRotation;
@@ -28,6 +31,12 @@ public class Puppet : MonoBehaviour
     {
         updateAction = InvisibleUpdate;
         defaultLocalRotation = transform.localRotation;
+        Canvas canvas = FindObjectOfType<Canvas>();
+        GameObject bubblePanel = Utils.GetChildGameObject(canvas.gameObject, "bubblePanel");
+        GameObject bubleGameObject = Instantiate(bubblePrefab);
+        bubleGameObject.transform.SetParent(bubblePanel.transform);
+        speechBubble = bubleGameObject.GetComponent<Bubble2d>();
+        speechBubble.trackedObject = Utils.GetChildGameObject(gameObject, "bubbleRoot");
     }
 
 

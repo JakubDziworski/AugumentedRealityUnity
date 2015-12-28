@@ -9,7 +9,6 @@ namespace Assets.Utils
 {
     class Utils
     {
-        
         public static T GetClosestObject<T>(T obj,float maxDistance = float.PositiveInfinity) where T : MonoBehaviour
         {
             return Object.FindObjectsOfType<T>().
@@ -17,5 +16,12 @@ namespace Assets.Utils
             OrderBy(found => Vector3.Distance(found.transform.position, obj.transform.position)).
             FirstOrDefault(found => Vector3.Distance(found.transform.position, obj.transform.position) < maxDistance);
         }
+
+         static public GameObject GetChildGameObject(GameObject fromGameObject, string withName) {
+         //Author: Isaac Dart, June-13.
+         Transform[] ts = fromGameObject.transform.GetComponentsInChildren<Transform>();
+         foreach (Transform t in ts) if (t.gameObject.name == withName) return t.gameObject;
+         return null;
+     }
     }
 }
