@@ -73,7 +73,7 @@ public class Puppet : MonoBehaviour
     private void ShowGreetingBubble()
     {
         speechBubble.Show();
-        speechBubble.GetComponentInChildren<Text>().text = "Greetings " + mGreeter.name;
+        speechBubble.GetComponentInChildren<Text>().text = "Cześć " + mGreeter.name;
     }
 
     private void HideGreetingBubble()
