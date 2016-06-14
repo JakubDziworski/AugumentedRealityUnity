@@ -18,8 +18,8 @@ public class Puppet : MonoBehaviour
     public GameObject bubblePrefab;
 
     private State state;
-    private const float minDistanceToExitGreet = 7f; //Minimum distance to greet when leaving
-    private const float minDistanceToEnterGreet = 5f; //Minimum distance to greet when entering
+    private const float minDistanceToExitGreet = 11.5f; //Minimum distance to greet when leaving
+    private const float minDistanceToEnterGreet = 9f; //Minimum distance to greet when entering
     public static float minDistanceToGreet = minDistanceToEnterGreet; //Minimum distance able to trigger greet 
     private static float turningSpeed = 3.0f; //Determines how fast objects rotate toward each other while greeting
     private Bubble2d speechBubble;

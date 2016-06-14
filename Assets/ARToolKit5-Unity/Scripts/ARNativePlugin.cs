@@ -175,6 +175,9 @@ public static class ARNativePlugin
 	
 	[DllImport(LIBRARY_NAME, CallingConvention=CallingConvention.Cdecl)]
 	public static extern void arwSetVideoDebugMode(bool debug);
+
+    [DllImport(LIBRARY_NAME, CallingConvention = CallingConvention.Cdecl)]
+    public static extern void arwSetedgeDetectionAlghoritmEnabled(bool debug);
 	
 	[DllImport(LIBRARY_NAME, CallingConvention=CallingConvention.Cdecl)]
 	[return: MarshalAsAttribute(UnmanagedType.I1)]

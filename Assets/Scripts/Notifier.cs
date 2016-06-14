@@ -18,8 +18,9 @@ public class Notifier : MonoBehaviour
 
     public void NotifyThresholdAdjusterUpdate(int currentlyTestedThreshold)
     {
-        slider.normalizedValue = currentlyTestedThreshold/255.0f;
-        string str = "Poszukiwanie najlepszego progu : (" + currentlyTestedThreshold + "/255)";
+        float percentage = currentlyTestedThreshold/255.0f;
+        slider.normalizedValue = percentage;
+        string str = "Kalibracja:" + (percentage*100f).ToString("N0")+ "%";
         text.text = str;
     }
 
@@ -34,6 +35,7 @@ public class Notifier : MonoBehaviour
 
     public void NotifyThresholdAdjusterStarted()
     {
+        slider.gameObject.SetActive(true);
         slider.normalizedValue = 0;
         HOTween.Complete(canvasGroup);
         HOTween.To(canvasGroup,fadeDuration,"alpha",1.0f).Play();
@@ -44,4 +46,16 @@ public class Notifier : MonoBehaviour
 	void Update () {
 	
 	}
+
+    public void NotifyEdgeDetectionChanged(bool edgeBased)
+    {
+        slider.gameObject.SetActive(false);
+        string mode = edgeBased ? "własny (testowy)" : "domyślny";
+        string str = "Zmieniono algorytm wykrywania krawędzi na: " + mode;
+        text.text = str;
+        HOTween.Complete(canvasGroup);
+        HOTween.To(canvasGroup, fadeDuration, "alpha", 1.0f).Play();
+        HOTween.To(canvasGroup, fadeDuration, "alpha", 0.0f, false, EaseType.Linear, 3).Play();
+
+    }
 }

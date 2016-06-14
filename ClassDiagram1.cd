@@ -1,0 +1,2291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ARCamera" Collapsed="true">
+    <Position X="19.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAIAwAAAAgAAAAAJSFIAAGQABAAIAAAAAAAQAAEEA=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\ARCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARController" Collapsed="true">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>NQxxlhlG6SITbAk4yFdmiPSwkChmqOY8oNDJJgBeu0A=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\ARController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARMarker" Collapsed="true">
+    <Position X="33.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAYIgQCCCAAgQAAQABFAAIACYQAAKAIIAAgCCAQIWUA=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\ARMarker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARNativePlugin" Collapsed="true">
+    <Position X="36.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAZCwKIAIoEgKoRliAiECIAIgAKwBACDYBAEeAIBFAE=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\ARNativePlugin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARNativePluginStatic" Collapsed="true">
+    <Position X="38.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAZCgKIAIoEgKoRliAiECIAIgAKwBACDYBAEeAIBFAE=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\ARNativePluginStatic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AROrigin" Collapsed="true">
+    <Position X="40.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABQAACAAAAAgABEMCAIAAAEQAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\AROrigin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARPattern" Collapsed="true">
+    <Position X="42" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAACAAAAAAAgAAAAAMAAAAAAA=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\ARPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARTrackedCamera" Collapsed="true">
+    <Position X="19.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACCAABgAABABAAAEAAAAAgAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\ARTrackedCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARTrackedObject" Collapsed="true">
+    <Position X="49" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACAAABAAAJCBIAAAQABAIgAAAAAACQAAAAA=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\ARTrackedObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARTransitionalCamera" Collapsed="true">
+    <Position X="19.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAACgAAAAAACAgAAAEQAQEBAAQAACEAiACAAg=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\ARTransitionalCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARUtilityFunctions" Collapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAIAQAAAAAIAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\ARUtilityFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PluginFunctions" Collapsed="true">
+    <Position X="35" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARCgKIAIoEgKoRliAmECIAIgAKwBACDYBAEeAIBFkE=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HOTweenDemoBrain" Collapsed="true">
+    <Position X="40.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAEAAAAAAACwAIAAAAAAAAACAAACAAAA=</HashCode>
+      <FileName>Assets\HOTween\_Demo\HOTweenDemoBrain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImagePickup" Collapsed="true">
+    <Position X="42" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAACAQAAAAAAAAAAAAAAEAAAAIAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\NyArToolkit\sample\ImagePickup\ImagePickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARJpegBehaviour" Collapsed="true">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAACAQAAAAAAAAAAAAAAEAAACIAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\NyArToolkit\sample\JpegFile\ARJpegBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarkerPlaneBehavior" Collapsed="true">
+    <Position X="31.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAACAQAAAAAAAAAAAAAAEAAACIAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\NyArToolkit\sample\MarkerPlane\MarkerPlaneBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARCameraBehaviour" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAACAQAAAAAAAAAAAAAAEAAACIAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\NyArToolkit\sample\SimpleLite\ARCameraBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleLiteMBehaviour" Collapsed="true">
+    <Position X="45.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAACAAAAAAAABgAAAAAAEAAAAIAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\NyArToolkit\sample\SimpleLiteM\SimpleLiteMBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleLiteWebBehaviour" Collapsed="true">
+    <Position X="47.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAACAQAAAAAAAAAAAAAAEAAAAIAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\NyArToolkit\sample.webplayer\SimpleLiteWeb\SimpleLiteWebBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebcamTestBehaviourScript" Collapsed="true">
+    <Position X="42" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\sample.webplayer\WebCamTest\WebcamTestBehaviourScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bubble2d" Collapsed="true">
+    <Position X="31.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQEgIACAAAAAAAAEAQAAAAAAAEEAAAAIgAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Bubble2d.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Follower" Collapsed="true">
+    <Position X="38.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASEAAAAAgAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Follower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Notifier" Collapsed="true">
+    <Position X="36.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAEAAAAAAAAAAAAAAAAAgAAAAAAAIIAAAEAAAAIEA=</HashCode>
+      <FileName>Assets\Scripts\Notifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puppet" Collapsed="true">
+    <Position X="38.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAQBACAEAIoAAAokAAZAADAgCBAAAMIAAACACAAMA=</HashCode>
+      <FileName>Assets\Scripts\Puppet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThresholdAdjuster" Collapsed="true">
+    <Position X="31.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAQAAAAAAAAABAIAAAAABIEAABiAAIAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\ThresholdAdjuster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoDebugger" Collapsed="true">
+    <Position X="25.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAACAAIAAAEA=</HashCode>
+      <FileName>Assets\Utils\MonoDebugger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAAAAAgAABAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Utils\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARHistogramAnalyzer_DiscriminantThreshold" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAgQ=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\analyzer\histogram\NyARHistogramAnalyzer_DiscriminantThreshold.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARHistogramAnalyzer_KittlerThreshold" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQ=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\analyzer\histogram\NyARHistogramAnalyzer_KittlerThreshold.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARHistogramAnalyzer_SlidePTile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAgA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\analyzer\histogram\NyARHistogramAnalyzer_SlidePTile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARIcp" Collapsed="true">
+    <Position X="16.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQgAAAAABIgAQCAAAAKCEAABgAAABggCgAAIAAAhA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\icp\NyARIcp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARIcpPlane" Collapsed="true">
+    <Position X="38.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAIIIIAAAAAAAACCEAAAAAAAAQAAQAAAIEEAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\icp\NyARIcpPlane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARIcpPoint" Collapsed="true">
+    <Position X="16.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAEAAAAQAAAAAAAAAgAAAAABAAIAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\icp\NyARIcpPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARIcpPointRobust" Collapsed="true">
+    <Position X="16.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAACAAEAAEAAAAQAAAAAAAAAgAAAAABAAIAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\icp\NyARIcpPointRobust.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARIcpStereo" Collapsed="true">
+    <Position X="0.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgAACAAIAgAAAAgACAAAABgAAABAgAgAAAAAABA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\icp\NyARIcpStereo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARIcpStereoPoint" Collapsed="true">
+    <Position X="0.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIAAABAAIAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\icp\NyARIcpStereoPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARIcpTransMat" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAAAAAAACAAAAAAAAAAAEAAAAAAAAAAADAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\icp\NyARIcpTransMat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARIcpUtils" Collapsed="true">
+    <Position X="42" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\icp\NyARIcpUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARLabeling_ARToolKit" Collapsed="true">
+    <Position X="28" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAIAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\labeling\artoolkit\NyARLabeling_ARToolKit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARWorkHolder" Collapsed="true">
+    <Position X="40.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\labeling\artoolkit\NyARLabeling_ARToolKit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARLabelingImage" Collapsed="true">
+    <Position X="8.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQqAIAEAACAAAEAAAAAAQAAAAAAAAACAAAAgQAEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\labeling\artoolkit\NyARLabelingImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARLabelingLabel" Collapsed="true">
+    <Position X="22.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\labeling\artoolkit\NyARLabelingLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARLabelingLabelStack" Collapsed="true">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\labeling\artoolkit\NyARLabelingLabelStack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARLabelInfo" Collapsed="true">
+    <Position X="21.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAABAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\labeling\NyARLabelInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARLabelOverlapChecker&lt;T&gt;" Collapsed="true">
+    <Position X="31.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAIAQAAABAAIAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\labeling\NyARLabelOverlapChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARLabeling_Rle" Collapsed="true">
+    <Position X="29.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABABgGABAAAAAIAACAAkBAAAAAAACgAAAAAAQQA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\labeling\rlelabeling\NyARLabeling_Rle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.RleInfoStack" Collapsed="true">
+    <Position X="19.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\labeling\rlelabeling\NyARLabeling_Rle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRlePixelDriver_BIN_GS8" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\labeling\rlelabeling\NyARLabeling_Rle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRlePixelDriver_GSReader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\labeling\rlelabeling\NyARLabeling_Rle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRleLabelFragmentInfo" Collapsed="true">
+    <Position X="20.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\labeling\rlelabeling\NyARRleLabelFragmentInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRleLabelFragmentInfoPtrStack" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\labeling\rlelabeling\NyARRleLabelFragmentInfoPtrStack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARMatchPatt_BlackWhite" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAEAAAAAAAAAAIBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\match\NyARMatchPatt_BlackWhite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARMatchPatt_Color_WITHOUT_PCA" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAEAAAAAgAAAAIAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\match\NyARMatchPatt_Color_WITHOUT_PCA.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARMatchPattDeviationBlackWhiteData" Collapsed="true">
+    <Position X="42" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAABAAAAEAAAAABAAAAAAAIAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\match\NyARMatchPattDeviationBlackWhiteData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARMatchPattDeviationColorData" Collapsed="true">
+    <Position X="43.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAABEAAAEAAAAAAAAAAAAAIAAAAAAEAABIAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\match\NyARMatchPattDeviationColorData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARMatchPattDeviationDataDriver_INT1D_X8R8G8B8_32" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\match\NyARMatchPattDeviationColorData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARMatchPattDeviationDataDriver_RGBAny" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\match\NyARMatchPattDeviationColorData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARMatchPattResult" Collapsed="true">
+    <Position X="49" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAIAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\match\NyARMatchPattResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARCodeFileReader" Collapsed="true">
+    <Position X="47.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\NyARCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARCode" Collapsed="true">
+    <Position X="45.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEAAAACAAAAAAAAAQAAAABAAwAAQAAAAABAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\NyARCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARMat" Collapsed="true">
+    <Position X="18.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAABIAAABgAAgAIAAAACAAAgAAJASBAAAAgwAIA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\NyARMat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARMatPca" Collapsed="true">
+    <Position X="18.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAQAIAEgAAAAAQAAgBAAAAACAiAEEgAAAAAgAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\NyARMatPca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARVec" Collapsed="true">
+    <Position X="33.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAgAAAAAAAAAgAAAAAABAAAAggAAE=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\NyARVec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARVersion" Collapsed="true">
+    <Position X="36.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAAAAAAAAAAAAAABAAAgABA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\NyARVersion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARCameraDistortionFactor" Collapsed="true">
+    <Position X="40.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAYAAAAKAAAIIAAAAAAAAAAQAAAAAIAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\param\NyARCameraDistortionFactor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARCameraDistortionFactorV2" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAYAAAAKAAAIIAACAAAAAIAQAAAAAIAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\param\NyARCameraDistortionFactorV2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARCameraDistortionFactorV4" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAAAAIYAQAEKAAAAIAACAAAAEICQAAAQAIAACAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\param\NyARCameraDistortionFactorV4.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARFrustum" Collapsed="true">
+    <Position X="47.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAIMCAIAACAAUAgAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\param\NyARFrustum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARObserv2IdealMap" Collapsed="true">
+    <Position X="31.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAABAAIAAAAAAAAAAAAAIAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\param\NyARObserv2IdealMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARParam" Collapsed="true">
+    <Position X="33.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAKMAAgAAAAQCAKAAAAAAAAAAACAAQAAAAAgAAI=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\param\NyARParam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARPerspectiveProjectionMatrix" Collapsed="true">
+    <Position X="18.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAACAAAAIAAAAAAgAAAAAAAAIAAAAAAE=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\param\NyARPerspectiveProjectionMatrix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARPca2d_MatrixPCA" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAEAAAAAAAAAAAABAAAAAAAAAAAAAAQAAAAAACA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pca2d\NyARPca2d_MatrixPCA.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARPca2d_MatrixPCA_O2" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAQAAAAgAAAAAAAAAAAAAAACAAAAEgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pca2d\NyARPca2d_MatrixPCA_O2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARColorPatt_Base" Collapsed="true">
+    <Position X="15.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQoAAAAAJIAIAAAAAAAAAAAABAAQAAACIACAAIEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pickup\NyARColorPatt_Base.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARColorPatt_O3" Collapsed="true">
+    <Position X="15.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAACAAAAALAAAAAAAgAAAAgAAAAAACIDAEGAQAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pickup\NyARColorPatt_O3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARColorPatt_Perspective" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQoAAAAANAAoAAAAABAAAAABBAAQAAACAAGAAIFAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pickup\NyARColorPatt_Perspective.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARColorPatt_PseudoAffine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQoAAAAAJAIIAAAAQAAAAQAABAAQAAACAACAAIEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pickup\NyARColorPatt_PseudoAffine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARGsPixelDriverFactory" Collapsed="true">
+    <Position X="36.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pixeldriver\NyARGsPixelDriverFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARGsPixelDriver_INT1D_GRAY_8" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIAAAAAAAAAAAAAAgAAAgAIAACAAAAAAAQI=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pixeldriver\NyARGsPixelDriverFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARGsPixelDriver_RGBX" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIACAAAAAAAAAAAAgAAAAAAAACAAAAAAAQI=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pixeldriver\NyARGsPixelDriverFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgbPixelDriverFactory" Collapsed="true">
+    <Position X="33.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pixeldriver\NyARRgbPixelDriverFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgbPixelDriver_BYTE1D_B8G8R8_24" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIAAAAAAAAAAAAAAAAAAgAIAACAAAAAAAQI=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pixeldriver\NyARRgbPixelDriverFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgbPixelDriver_BYTE1D_B8G8R8X8_32" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIAAAAAAAAAAAAAAAAAAgAIAACAAAAAAAQI=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pixeldriver\NyARRgbPixelDriverFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgbPixelDriver_BYTE1D_R8G8B8_24" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIAAAAAAAAAAAAAAAAAAgAIAACAAAAAAAQI=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pixeldriver\NyARRgbPixelDriverFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgbPixelDriver_BYTE1D_X8R8G8B8_32" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIAAAAAAAAAAAAAAAAAAgAIAACAAAAAAAQI=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pixeldriver\NyARRgbPixelDriverFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgbPixelDriver_INT1D_GRAY_8" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIAAAAAAAAAAAAAAAAAAgAIAACAAAAAAAQI=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pixeldriver\NyARRgbPixelDriverFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgbPixelDriver_INT1D_X8R8G8B8_32" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIAAAAAAAAAAAAAAAAAAgAIAACAAAAAAAQI=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pixeldriver\NyARRgbPixelDriverFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgbPixelDriver_WORD1D_R5G6B5_16LE" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIAAAAAAAAAAAAAAAAAAgAIAACAAAAAAAQI=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pixeldriver\NyARRgbPixelDriverFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARBinRaster" Collapsed="true">
+    <Position X="12.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\raster\NyARBinRaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARGrayscaleRaster" Collapsed="true">
+    <Position X="12.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQoAAAAAIEAAAAACAAAAAAABBAAQgAACCAAgAIEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\raster\NyARGrayscaleRaster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARHsvRaster" Collapsed="true">
+    <Position X="11" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQoAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\raster\NyARHsvRaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRaster" Collapsed="true">
+    <Position X="13.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQoAAAAAAAAAAAAAAAAAAAABAAAAAAAACAAgAAEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\raster\NyARRaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRaster_BasicClass" Collapsed="true">
+    <Position X="11" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQoAAAAAIAAAAAACAAAAAAAABAAQAAACAAAAAIEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\raster\NyARRaster_BasicClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgbRaster" Collapsed="true">
+    <Position X="8.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQoAABAAAAAAAAAAAAAAAAABAAAAAAAACACgAAEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\raster\rgb\NyARRgbRaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgbRaster_BasicClass" Collapsed="true">
+    <Position X="8.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQoAAAAAIAAAAAACAAAAAAAABAAQAIACAACAAIEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\raster\rgb\NyARRgbRaster_BasicClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARHistogramFromRasterFactory" Collapsed="true">
+    <Position X="36.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterdriver\NyARHistogramFromRasterFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARHistogramFromRaster_AnyGs" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterdriver\NyARHistogramFromRasterFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARHistogramFromRaster_AnyRgb" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterdriver\NyARHistogramFromRasterFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARHistogramFromRaster_INTGS8" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterdriver\NyARHistogramFromRasterFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARPerspectiveCopy_Base" Collapsed="true">
+    <Position X="5.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAASAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterdriver\NyARPerspectiveCopy_Base.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARPerspectiveCopyFactory" Collapsed="true">
+    <Position X="40.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterdriver\NyARPerspectiveCopyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.PerspectiveCopy_ANYRgb" Collapsed="true">
+    <Position X="3" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterdriver\NyARPerspectiveCopyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.PerspectiveCopy_BYTE1D_B8G8R8X8_32" Collapsed="true">
+    <Position X="5.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterdriver\NyARPerspectiveCopyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.PerspectiveCopy_BYTE1D_B8G8R8_24" Collapsed="true">
+    <Position X="7.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterdriver\NyARPerspectiveCopyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.PerspectiveCopy_BYTE1D_R8G8B8_24" Collapsed="true">
+    <Position X="9.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterdriver\NyARPerspectiveCopyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARGsCustomToneTableFilter_Any" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\gs\INyARGsCustomToneTableFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARGsEqualizeHistFilter_Any" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAABAAAABA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\gs\INyARGsEqualizeHistFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARGsGaussianSmoothFilter_GS8" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\gs\INyARGsGaussianSmoothFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARGsReverseFilter_Any" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\gs\INyARGsReverseFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARGsRobertsFilter_GS8" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\gs\INyARGsRobertsFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARGsToneTableFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAQAAABAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\gs\INyARGsToneTableFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARGsFilterFactory" Collapsed="true">
+    <Position X="29.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQACAAAAAIAAAAAQCAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\gs\NyARGsFilterFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRasterFilter_Rgb2Hsv" Collapsed="true">
+    <Position X="43.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\NyARRasterFilter_Rgb2Hsv.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.Rgb2HsvFilter_Blank" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\NyARRasterFilter_Rgb2Hsv.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.Rgb2HsvFilter_BYTE1D_B8G8R8_24" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\NyARRasterFilter_Rgb2Hsv.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgb2GsFilterArtkTh_Base" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\INyARRgb2GsFilterArtkTh.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgb2GsFilterArtkTh_BYTE1D_C8C8C8_24" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\INyARRgb2GsFilterArtkTh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgb2GsFilterArtkTh_BYTE1D_B8G8R8X8_32" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\INyARRgb2GsFilterArtkTh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgb2GsFilterArtkTh_BYTE1D_X8R8G8B8_32" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\INyARRgb2GsFilterArtkTh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgb2GsFilterArtkTh_INT1D_X8R8G8B8_32" Collapsed="true">
+    <Position X="1" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\INyARRgb2GsFilterArtkTh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgb2GsFilterArtkTh_WORD1D_R5G6B5_16LE" Collapsed="true">
+    <Position X="3.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\INyARRgb2GsFilterArtkTh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgb2GsFilterArtkTh_Any" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\INyARRgb2GsFilterArtkTh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgb2GsFilterArtkThFactory" Collapsed="true">
+    <Position X="49" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\NyARRgb2GsFilterArtkThFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgb2GsFilterFactory" Collapsed="true">
+    <Position X="28" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAACAAAIAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\NyARRgb2GsFilterFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgb2GsFilterRgbAve_BYTE1D_B8G8R8X8_32" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\NyARRgb2GsFilterFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgb2GsFilterRgbAve_BYTE1D_C8C8C8_24" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\NyARRgb2GsFilterFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgb2GsFilterRgbAve_INT1D_X8R8G8B8_32" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\NyARRgb2GsFilterFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgb2GsFilterRgbAve_Any" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAAAAAAAABAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\NyARRgb2GsFilterFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgb2GsFilterRgbCube_Any" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAAAAAAAABAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\NyARRgb2GsFilterFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRgb2GsFilterYCbCr_Any" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAAAAAAAABAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\NyARRgb2GsFilterFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARContourPickup" Collapsed="true">
+    <Position X="9.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAICAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\squaredetect\NyARContourPickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARContourPickup_Base" Collapsed="true">
+    <Position X="21.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\squaredetect\NyARContourPickup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARContourPickup_BIN_GS8" Collapsed="true">
+    <Position X="22.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\squaredetect\NyARContourPickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARContourPickup_GsReader" Collapsed="true">
+    <Position X="20.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\squaredetect\NyARContourPickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARContourPickup_ARToolKit" Collapsed="true">
+    <Position X="9.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\squaredetect\NyARContourPickup_ARToolKit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARCoord2Linear" Collapsed="true">
+    <Position X="29.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACEAAAAAAAAgFQAAAAAACAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\squaredetect\NyARCoord2Linear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARCoord2SquareVertexIndexes" Collapsed="true">
+    <Position X="31.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\squaredetect\NyARCoord2SquareVertexIndexes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARVertexCounter" Collapsed="true">
+    <Position X="38.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAABAAAAAQAAAAAAQAIAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\squaredetect\NyARCoord2SquareVertexIndexes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARSquare" Collapsed="true">
+    <Position X="40.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAACAAAAAAAAAAQAAAAAAAgAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\squaredetect\NyARSquare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARSquareContourDetector" Collapsed="true">
+    <Position X="4.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\squaredetect\NyARSquareContourDetector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARSquareContourDetector_ARToolKit" Collapsed="true">
+    <Position X="3.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAADAAAACAAAAgAIAAACAAABIgAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\squaredetect\NyARSquareContourDetector_ARToolKit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARSquareContourDetector_Rle" Collapsed="true">
+    <Position X="5.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAADAAAAAAAAAgAIAAgCAAAAIgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\squaredetect\NyARSquareContourDetector_Rle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARSquareStack" Collapsed="true">
+    <Position X="10.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\squaredetect\NyARSquareStack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRectOffset" Collapsed="true">
+    <Position X="47.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAQAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\NyARRectOffset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARTransMat" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQUAAiAAQAEAAAAAAAAAAAAAABAAAAAAgAAAAAAADIA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\NyARTransMat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARTransMat_ARToolKit" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQUAAgAgQAEIAAAAAAAAAAAAAAAAAAAAAAAAgAAADIA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\NyARTransMat_ARToolKit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARTransMatResult" Collapsed="true">
+    <Position X="20.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\NyARTransMatResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARTransMatResultParam" Collapsed="true">
+    <Position X="49" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\NyARTransMatResultParam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRotMatrixOptimize_O2" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQAAAAg=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\optimize\artoolkit\NyARRotMatrixOptimize_O2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARPartialDifferentiationOptimize" Collapsed="true">
+    <Position X="35" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAgAAAAAAAAIAAAIAAAQAAAAAAAAAABAAg=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\optimize\NyARPartialDifferentiationOptimize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRotMatrix" Collapsed="true">
+    <Position X="0.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAACAAAAAAAIAAAAAAAAAAAAAAAAAALAQAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\rotmatrix\NyARRotMatrix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRotMatrix_ARToolKit" Collapsed="true">
+    <Position X="0.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\rotmatrix\NyARRotMatrix_ARToolKit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRotMatrix_ARToolKit_O2" Collapsed="true">
+    <Position X="0.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\rotmatrix\NyARRotMatrix_ARToolKit_O2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRotVector" Collapsed="true">
+    <Position X="24.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAIAAAAAAAQAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\rotmatrix\NyARRotVector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARRotVectorV2" Collapsed="true">
+    <Position X="24.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAQAAACAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\rotmatrix\NyARRotVectorV2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARTransportVectorSolver" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAIABAADQAAQAAAAAAAAAAAAAAAAAgAEBAAE=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\solver\NyARTransportVectorSolver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARTransportVectorSolver_ARToolKit" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAABCAE=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\solver\NyARTransportVectorSolver_ARToolKit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARDoubleMatrix22" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAiAAAAIAAAAAAgAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\matrix\NyARDoubleMatrix22.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARDoubleMatrix33" Collapsed="true">
+    <Position X="0.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAABAAAAAiAAAAIAAAAAEgAhAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\matrix\NyARDoubleMatrix33.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARDoubleMatrix34" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAIAAAAAAgAgAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\matrix\NyARDoubleMatrix34.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARDoubleMatrix44" Collapsed="true">
+    <Position X="19.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAABAAAIAiA0AAIAWAAAUgAgAAIAAAAQAABARAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\matrix\NyARDoubleMatrix44.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARBufferType" Collapsed="true">
+    <Position X="38.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIIAR0AjBACAAgoiAAAAAAABgQQIABBAKEEAKUAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\NyARBufferType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARDoublePoint2d" Collapsed="true">
+    <Position X="40.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAAAAAAABAIAAAAAAAAAAAICAABgAAAABAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\NyARDoublePoint2d.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARDoublePoint3d" Collapsed="true">
+    <Position X="42" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAIAAAAAAAAAAAIAAABgAQAABAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\NyARDoublePoint3d.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARHistogram" Collapsed="true">
+    <Position X="47.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAEAAAAIAAACAAAAQIAAQAAEABAQ=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\NyARHistogram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARIntCoordinates" Collapsed="true">
+    <Position X="43.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\NyARIntCoordinates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARIntPoint2d" Collapsed="true">
+    <Position X="45.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAFAIAAAAAEAACAAIAAABgAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\NyARIntPoint2d.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARIntRect" Collapsed="true">
+    <Position X="47.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAgAAAAAAAAAIAAAAAiAIAAAAgQAhgAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\NyARIntRect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARIntSize" Collapsed="true">
+    <Position X="49" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAgAIAAAAAQAgRAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\NyARIntSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARLinear" Collapsed="true">
+    <Position X="35" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAIAAAAAAABAAAAAAAAAAAIAKkCQQAAgAgiAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\NyARLinear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARQuaternion" Collapsed="true">
+    <Position X="42" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAhgAQAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\NyARQuaternion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARVecLinear2d" Collapsed="true">
+    <Position X="35" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAAAAAIAAAAAAAIIAAAAAAAAIAIAAADgAAAAzAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\NyARVecLinear2d.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARIntPointStack" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\stack\NyARIntPointStack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARIntRectStack" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\stack\NyARIntRectStack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARObjectStack&lt;T&gt;" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAEAAAAAAAAAAAAAAIgAAIIAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\stack\NyARObjectStack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARPointerStack&lt;T&gt;" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAABAQAAEAAAEgQAAAIAAAFAAAAAhBAAIAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\stack\NyARPointerStack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.ByteBufferedInputStream" Collapsed="true">
+    <Position X="33.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAQBAAAAAAAgAAAAAAAAAAACAAAAoABAwAAIABA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\utils\ByteBufferedInputStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARDistMap" Collapsed="true">
+    <Position X="3.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAEAAAQAwAAAAMAAQAAgAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\utils\NyARDistMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyAREquationSolver" Collapsed="true">
+    <Position X="43.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\utils\NyAREquationSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARLCGsRandomizer" Collapsed="true">
+    <Position X="33.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAABIAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\utils\NyARLCGsRandomizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARLinkList&lt;T&gt;" Collapsed="true">
+    <Position X="14.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAgAAAAEAAAAAAAAAAAIAAAAAAAAAEBAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\utils\NyARLinkList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARManagedObject" Collapsed="true">
+    <Position X="17.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAIAAAAAAAAQAAAAAAAAAAAAAAAACAAAAEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\utils\NyARManagedObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARManagedObjectPool&lt;T&gt;" Collapsed="true">
+    <Position X="5.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAQAAAAAAIBAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\utils\NyARManagedObjectPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARMath" Collapsed="true">
+    <Position X="28" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAAFAAAMgAEAJAAAAAAAAAAAAAAAACQAAAAAAgAQ=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\utils\NyARMath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARObjectPool&lt;T&gt;" Collapsed="true">
+    <Position X="29.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAAgBAAAAAAAQAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\utils\NyARObjectPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARPerspectiveParamGenerator" Collapsed="true">
+    <Position X="9.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIBAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\utils\NyARPerspectiveParamGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARPerspectiveParamGenerator_O1" Collapsed="true">
+    <Position X="8.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\utils\NyARPerspectiveParamGenerator_O1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARPerspectiveParamGenerator_Reference" Collapsed="true">
+    <Position X="10.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\utils\NyARPerspectiveParamGenerator_Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARSystemOfLinearEquationsProcessor" Collapsed="true">
+    <Position X="42" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAACAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\utils\NyARSystemOfLinearEquationsProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.NyARException" Collapsed="true">
+    <Position X="45.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAARAAAAAAAAAAAACAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\NyARException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.core.ArrayUtils" Collapsed="true">
+    <Position X="45.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAEAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\utils.cs\ArrayUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.detector.NyARDetectMarker" Collapsed="true">
+    <Position X="33.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAACQBEAECAAAIAAAAACgBAABEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\detector\NyARDetectMarker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.detector.NyARDetectMarkerResult" Collapsed="true">
+    <Position X="35" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAgAAAAAAABAAAAABAAAAAIAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\detector\NyARDetectMarker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.detector.NyARDetectMarkerResultStack" Collapsed="true">
+    <Position X="12.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\detector\NyARDetectMarker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.detector.NyARSingleDetectMarker" Collapsed="true">
+    <Position X="15" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAIAASAgEAEChAQIARADACgQAACEAggAAAAAAAAAWI=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\detector\NyARSingleDetectMarker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.detector.NyARSingleDetectMarker_ARTKv2" Collapsed="true">
+    <Position X="12.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\detector\NyARSingleDetectMarker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.detector.NyARSingleDetectMarker_NyARTK_FITTING_ARTKv2" Collapsed="true">
+    <Position X="15" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\detector\NyARSingleDetectMarker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.detector.NyARSingleDetectMarker_NyARTK" Collapsed="true">
+    <Position X="17.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\detector\NyARSingleDetectMarker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.nyidmarker.NyIdMarkerData_RawBit" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAABAAAAAEAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\nyidmarker\data\NyIdMarkerData_RawBit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.nyidmarker.NyIdMarkerData_RawBitId" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\nyidmarker\data\NyIdMarkerData_RawBitId.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.nyidmarker.NyIdMarkerDataEncoder_RawBit" Collapsed="true">
+    <Position X="6.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAAAAQAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\nyidmarker\data\NyIdMarkerDataEncoder_RawBit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.nyidmarker.NyIdMarkerDataEncoder_RawBitId" Collapsed="true">
+    <Position X="6.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\nyidmarker\data\NyIdMarkerDataEncoder_RawBitId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.nyidmarker.NyIdMarkerParam" Collapsed="true">
+    <Position X="47.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\nyidmarker\NyIdMarkerParam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.nyidmarker.NyIdMarkerPattern" Collapsed="true">
+    <Position X="49" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAIAAQAAAQAAAIAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\nyidmarker\NyIdMarkerPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.nyidmarker.NyIdMarkerPickup" Collapsed="true">
+    <Position X="28" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAIAAAAggAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\nyidmarker\NyIdMarkerPickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.nyidmarker.PerspectivePixelReader" Collapsed="true">
+    <Position X="31.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CkYgsgCAoMIADAAABBACQUAAhAAoIAAEAQAAgEAEAwA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\nyidmarker\NyIdMarkerPickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.nyidmarker.MarkerPattDecoder" Collapsed="true">
+    <Position X="49" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\nyidmarker\NyIdMarkerPickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.nyidmarker.MarkerPattEncoder" Collapsed="true">
+    <Position X="29.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEAIAMgiAAAAACAAAgAAgAAAAAAIAAAAAAAAAACQgQA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\nyidmarker\NyIdMarkerPickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.processor.SingleARMarkerProcesser" Collapsed="true">
+    <Position X="49" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkAACiVIGAAAAAQIEAACCAABAAAECAAAAQARBAAAAw=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\processor\SingleARMarkerProcesser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.processor.SingleNyIdMarkerProcesser" Collapsed="true">
+    <Position X="28" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABkAACiVIGAAAAAQIAAAACAABAAAEQAAAAQATAAAIAg=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\processor\SingleNyIdMarkerProcesser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.psarplaycard.PsARPlayCardPickup" Collapsed="true">
+    <Position X="36.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAUAAAAAAgA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\psarplaycard\PsARPlayCardPickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.psarplaycard.PerspectivePixelReader" Collapsed="true">
+    <Position X="33.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAsAAAAIAAAAAAAAAAAQAAAAAgAAAEAQAAAEAAAwA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\psarplaycard\PsARPlayCardPickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.psarplaycard.MarkerPattDecoder" Collapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAEQAAAAgAAAAAAAAAAAAAAAAAggAgA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\psarplaycard\PsARPlayCardPickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.NyARMarkerSystem" Collapsed="true">
+    <Position X="5.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAYADZAIAIAEAAIIIQAKBCwJAAEcAAQAQIAgABnCEM=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\NyARMarkerSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.OnSquareDetect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAKBAAAAAAQAAAAAAAIAACAAAAAgAEAAAQAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\NyARMarkerSystem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.SquareDetect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\NyARMarkerSystem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.NyARMarkerSystemConfig" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBAAQAAAAAABCAAAAAAAAAAAAAAAAAAQAAAAggAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\NyARMarkerSystemConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.NyARSensor" Collapsed="true">
+    <Position X="17.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAQyAABAgAgSAAQAAAAAAAIBAACAgAACAAAAIAEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\NyARSensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.NyARSingleCameraSystem" Collapsed="true">
+    <Position X="5.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAQAAAAACAIAAAAAIAAABAAQQABAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\NyARSingleCameraSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.utils.ARMarkerList" Collapsed="true">
+    <Position X="35" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAADAAAAAIAAAAAAAAAAAAAAAAAAAAgAAGAAGAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\utils\ARMarkerList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.utils.ARMarkerSortList" Collapsed="true">
+    <Position X="13.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAkAAAEAAAAAAAAAAAAAACAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\utils\ARMarkerSortList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.utils.ARPlayCardList" Collapsed="true">
+    <Position X="43.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAQAAAAAAiAAEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\utils\ARPlayCardList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.utils.MarkerInfoARMarker" Collapsed="true">
+    <Position X="0.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAEAQAAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\utils\MarkerInfoARMarker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.utils.MarkerInfoNyId" Collapsed="true">
+    <Position X="2.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\utils\MarkerInfoNyId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.utils.MultiResolutionPattProvider" Collapsed="true">
+    <Position X="33.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\utils\MultiResolutionPattProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.utils.NyIdList" Collapsed="true">
+    <Position X="42" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABCAAAAAAACAAAAAAAAAACAAQAABAAACAAEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\utils\NyIdList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.utils.SquareStack" Collapsed="true">
+    <Position X="17.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\utils\SquareStack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.utils.TMarkerData" Collapsed="true">
+    <Position X="1.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIAAAAAAAAAAAAAAAIAEMACAQAAAAABABAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\utils\TMarkerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.utils.TrackingList" Collapsed="true">
+    <Position X="35" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACBAAAAAAAAAAAAAAAAAAAAAAAAAAAACCAAGAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\utils\TrackingList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.markersystem.utils.VertexSortTable" Collapsed="true">
+    <Position X="15.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAkAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\utils\VertexSortTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.ARTKMarkerTable" Collapsed="true">
+    <Position X="47.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAAIAAgAAAAgAAAAAAAAAAAuoAAAAAAAAAQAAAAQA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\mklib\ARTKMarkerTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.ASyncIdMarkerTable" Collapsed="true">
+    <Position X="29.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAACAAAAQA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\mklib\ASyncIdMarkerTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.CardDetect" Collapsed="true">
+    <Position X="35" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAQAAAAIAAAABAAAAAAgAAAAEAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\mklib\CardDetect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.RawbitSerialIdTable" Collapsed="true">
+    <Position X="40.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAACAAEAAgABAAAABIACAAAAAAAAAGAAEAAgAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\mklib\RawbitSerialIdTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARReality" Collapsed="true">
+    <Position X="45.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAgBIAgBBAAAhAoBIAAIAAAAJQEwMCAACsBAQASCICA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\reality\nyartk\NyARReality.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARRealityTarget" Collapsed="true">
+    <Position X="12.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YIQAQmEAAAAAgACEMQAIAAhAAAIAAACAGAAAKAKAAhQ=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\reality\nyartk\NyARRealityTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARRealityTargetList" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\reality\nyartk\NyARRealityTargetList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARRealityTargetPool" Collapsed="true">
+    <Position X="0.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAgAAAAAAAAAAAAAAAAYQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\reality\nyartk\NyARRealityTargetPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARRealitySource" Collapsed="true">
+    <Position X="22.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAIACAAAAAAAAAIAAAIAAARAQCAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\realitysource\nyartk\NyARRealitySource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARRealitySource_Reference" Collapsed="true">
+    <Position X="22.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAIAIAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\realitysource\nyartk\NyARRealitySource_Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.LowResolutionLabelingSampler" Collapsed="true">
+    <Position X="45.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\sampler\lrlabel\LowResolutionLabelingSampler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.LowResolutionLabelingSamplerOut" Collapsed="true">
+    <Position X="47.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAEQAAAgAAAAAAAAAAAAAAAAAIAAAAAABA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\sampler\lrlabel\LowResolutionLabelingSamplerOut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NegativeSqRoberts" Collapsed="true">
+    <Position X="35" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAACAAAAABAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\NegativeSqRoberts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARRectTargetList" Collapsed="true">
+    <Position X="21.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\NyARRectTargetList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARTarget" Collapsed="true">
+    <Position X="21.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAACABAAAAAAAEAQAAAAABAAAAAACIABAAoAAAAQA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\NyARTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARTargetList" Collapsed="true">
+    <Position X="21.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\NyARTargetList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARTargetPool" Collapsed="true">
+    <Position X="9.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\NyARTargetPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARTracker" Collapsed="true">
+    <Position X="43.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABAAQQQIAYCAAACYBqGAJAgVMAEgkABMIgQIERgAg=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\NyARTracker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.SampleStack" Collapsed="true">
+    <Position X="24" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\NyARTracker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.DistMap" Collapsed="true">
+    <Position X="3.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\NyARTracker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARTrackerSource" Collapsed="true">
+    <Position X="22.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAQQEAAACAAAYAAAAAAAAAAAgAQAQACAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\NyARTrackerSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARTrackerSource_Reference" Collapsed="true">
+    <Position X="22.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgCAAAAAAEAAAiCAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\NyARTrackerSource_Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARVectorReader_Base" Collapsed="true">
+    <Position X="22.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAAAAgAAABBIAIAAAAAgBCCAAAAiQAAEIAAIAEA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\NyARVectorReader_Base.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARVectorReader_INT1D_GRAY_8" Collapsed="true">
+    <Position X="22.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAACAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\NyARVectorReader_INT1D_GRAY_8.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARContourTargetStatus" Collapsed="true">
+    <Position X="15" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\status\NyARContourTargetStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARContourTargetStatusPool" Collapsed="true">
+    <Position X="3" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\status\NyARContourTargetStatusPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARNewTargetStatus" Collapsed="true">
+    <Position X="17.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQIAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\status\NyARNewTargetStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARNewTargetStatusPool" Collapsed="true">
+    <Position X="5.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\status\NyARNewTargetStatusPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARRectTargetStatus" Collapsed="true">
+    <Position X="19.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BMIAgAIACAAAgCBAAQIACAACABAAABABMABCAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\status\NyARRectTargetStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARRectTargetStatusPool" Collapsed="true">
+    <Position X="7.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgEAAAgAAAAAAAEAAABAIAAAAAAAAAAAAAAAwAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\status\NyARRectTargetStatusPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARTargetStatus" Collapsed="true">
+    <Position X="17.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAgAABAAABAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\status\NyARTargetStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.LineBaseVertexDetector" Collapsed="true">
+    <Position X="43.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAgAABAAAAAAAAAAAAAgABAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\utils\LineBaseVertexDetector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.VecLinearCoordinates" Collapsed="true">
+    <Position X="38.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAACAAAAAAMgAAAAABEAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\utils\VecLinearCoordinates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.VecLinearCoordinatesOperator" Collapsed="true">
+    <Position X="40.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAACAAAAAAAAAEAAAAAAAAAAACAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\utils\VecLinearCoordinatesOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARGsRasterGraphicsFactory" Collapsed="true">
+    <Position X="40.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\utils\NyARGsRasterGraphicsFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jp.nyatla.nyartoolkit.cs.rpf.NyARGsRasterGraphics_GS_INT8" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\utils\NyARGsRasterGraphicsFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NyARUnityUtils.NyARUnityMarkerSystem" Collapsed="true">
+    <Position X="5.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQwAAAAAIAAAAAAAAAAAAIAABAAAQAAAEAEEAAACAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARUnityUtils\NyARUnityMarkerSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NyARUnityUtils.NyARUnityRaster" Collapsed="true">
+    <Position X="8.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQggAAAAAEAAAAAAAAAAAAABACAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARUnityUtils\NyARUnityRaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NyARUnityUtils.NyARRgb2GsFilterRgbAve_UnityRaster" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAAAAACAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARUnityUtils\NyARUnityRaster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NyARUnityUtils.NyARRgbPixelDriver_CsUnity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIAAAAAAAAAgAAAAAAAAgAIAACgAAAAAAQI=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARUnityUtils\NyARUnityRaster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NyARUnityUtils.PerspectiveCopy_Unity" Collapsed="true">
+    <Position X="0.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASAAAAAAgAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARUnityUtils\NyARUnityRaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NyARUnityUtils.NyARUnitySensor" Collapsed="true">
+    <Position X="16.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARUnityUtils\NyARUnitySensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NyARUnityUtils.NyARUnityUtil" Collapsed="true">
+    <Position X="31.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAEAIAAQAAAAAAAAACQAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARUnityUtils\NyARUnityUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NyARUnityUtils.NyARUnityWebCam" Collapsed="true">
+    <Position X="18.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAAQgQAAABAAAAAAgAACAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARUnityUtils\NyARUnityWebCam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Extensions" Collapsed="true">
+    <Position X="36.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Utils.TrackedObjectsManager" Collapsed="true">
+    <Position X="33.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACAAEAAAAAAAAAAAAAAAAAAAQAAEAAgAAIA=</HashCode>
+      <FileName>Assets\Utils\TrackedObjectsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Utils.Utils" Collapsed="true">
+    <Position X="36.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Utils\Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARHistogramAnalyzer_Threshold" Collapsed="true">
+    <Position X="47.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\analyzer\histogram\INyARHistogramAnalyzer_Threshold.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARDisposable" Collapsed="true">
+    <Position X="29.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\INyARDisposable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARMatchPatt" Collapsed="true">
+    <Position X="31.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\match\INyARMatchPatt.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARCameraDistortionFactor" Collapsed="true">
+    <Position X="28" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAYAAAAKAAAAIAAAAAAAAIAQAAAAAIAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\param\INyARCameraDistortionFactor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARPca2d" Collapsed="true">
+    <Position X="33.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pca2d\INyARPca2d.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARColorPatt" Collapsed="true">
+    <Position X="13.75" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pickup\INyARColorPatt.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARGsPixelDriver" Collapsed="true">
+    <Position X="38.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIAAAAAAAAAAAAAAgAAAAAAAACAAAAAAAQI=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pixeldriver\INyARGsPixelDriver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARRgbPixelDriver" Collapsed="true">
+    <Position X="38.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAQI=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\pixeldriver\INyARRgbPixelDriver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARGrayscaleRaster" Collapsed="true">
+    <Position X="11.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\raster\INyARGrayscaleRaster.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARRaster" Collapsed="true">
+    <Position X="12.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQoAAAAAIAAAAAAAAAAAAAAABAAQAAACAAAAAAEAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\raster\INyARRaster.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARRgbRaster" Collapsed="true">
+    <Position X="13.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\raster\rgb\INyARRgbRaster.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARHistogramFromRaster" Collapsed="true">
+    <Position X="49" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterdriver\INyARHistogramFromRaster.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARPerspectiveCopy" Collapsed="true">
+    <Position X="35" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterdriver\INyARPerspectiveCopy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARGsCustomToneTableFilter" Collapsed="true">
+    <Position X="33.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\gs\INyARGsCustomToneTableFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARGsEqualizeHistFilter" Collapsed="true">
+    <Position X="35" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\gs\INyARGsEqualizeHistFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARGsGaussianSmoothFilter" Collapsed="true">
+    <Position X="36.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\gs\INyARGsGaussianSmoothFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARGsReverseFilter" Collapsed="true">
+    <Position X="42" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\gs\INyARGsReverseFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARGsRobertsFilter" Collapsed="true">
+    <Position X="43.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\gs\INyARGsRobertsFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARGsToneTableFilter" Collapsed="true">
+    <Position X="45.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\gs\INyARGsToneTableFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARRgb2GsFilter" Collapsed="true">
+    <Position X="3" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\INyARRgb2GsFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARRgb2GsFilterArtkTh" Collapsed="true">
+    <Position X="36.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\INyARRgb2GsFilterArtkTh.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARRgb2GsFilterRgbAve" Collapsed="true">
+    <Position X="0.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\INyARRgb2GsFilterRgbAve.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARRgb2GsFilterRgbCube" Collapsed="true">
+    <Position X="3" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\INyARRgb2GsFilterRgbCube.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARRgb2GsFilterYCbCr" Collapsed="true">
+    <Position X="5.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\rasterfilter\rgb2gs\INyARRgb2GsFilterYCbCr.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARSquareContourDetectorHandler" Collapsed="true">
+    <Position X="43.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\squaredetect\INyARSquareContourDetectorHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARTransMat" Collapsed="true">
+    <Position X="45.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\INyARTransMat.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARRotMatrixOptimize" Collapsed="true">
+    <Position X="40.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\optimize\artoolkit\INyARRotMatrixOptimize.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARTransportVectorSolver" Collapsed="true">
+    <Position X="47.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\transmat\solver\INyARTransportVectorSolver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.core.INyARDoubleMatrix" Collapsed="true">
+    <Position X="31.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\core\types\matrix\INyARDoubleMatrix.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.nyidmarker.INyIdMarkerData" Collapsed="true">
+    <Position X="28" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\nyidmarker\data\INyIdMarkerData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.nyidmarker.INyIdMarkerDataEncoder" Collapsed="true">
+    <Position X="29.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src\cs\nyidmarker\data\INyIdMarkerDataEncoder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.markersystem.INyARMarkerSystemConfig" Collapsed="true">
+    <Position X="28" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAABCAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\INyARMarkerSystemConfig.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.markersystem.INyARMarkerSystemSquareDetect" Collapsed="true">
+    <Position X="29.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\INyARMarkerSystemSquareDetect.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.markersystem.INyARSingleCameraSystemObserver" Collapsed="true">
+    <Position X="42" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.markersystem\cs\markersystem\INyARSingleCameraSystemObserver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.rpf.INyARVectorReader" Collapsed="true">
+    <Position X="49" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACCAAAAAAAAEAAAIAEA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\tracker\nyartk\INyARVectorReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="jp.nyatla.nyartoolkit.cs.rpf.INyARGsRasterGraphics" Collapsed="true">
+    <Position X="40.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\NyArToolkit\NyARToolkitCS\src.rpf\cs\rpf\utils\INyARGsRasterGraphics.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ContentMode" Collapsed="true">
+    <Position X="31.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAACAAAAAAAAAAAAACAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\ARController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ContentAlign" Collapsed="true">
+    <Position X="29.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAIAAAAABAAAAAQAAAAAAAIAAAACACAAAAIAEA=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\ARController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MarkerType" Collapsed="true">
+    <Position X="33.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\ARMarker.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ARWMarkerOption" Collapsed="true">
+    <Position X="28" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJAAAAAAAAAAAAEAAAAAAgAAAAIABAAAAAIA=</HashCode>
+      <FileName>Assets\ARToolKit5-Unity\Scripts\ARMarker.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

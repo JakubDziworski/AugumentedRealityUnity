@@ -35,6 +35,10 @@ public class ThresholdAdjuster : MonoBehaviour
 	    markers = gameObject.GetComponents<ARMarker>();
         thresholds = new VisibilityForThreshold[256];
 	}
+    void Update()
+    {
+        HandleMarkerDetectionModeSwitching();
+    }
 
     public void Adjust()
     {
@@ -47,6 +51,8 @@ public class ThresholdAdjuster : MonoBehaviour
             StartCoroutine(CheckVisibility(thresholdTestDuration * (i + 1), i));
         }
     }
+
+  
 
     private void SetBestThreshold()
     {
@@ -101,6 +107,20 @@ public class ThresholdAdjuster : MonoBehaviour
         yield return new WaitForSeconds(time);
         if (notifierText != null) notifierText.NotifyThresholdAdjusterUpdate(threshold);
         arController.VideoThreshold = threshold;
+    }
+
+    void HandleMarkerDetectionModeSwitching()
+    {
+        if ((Input.GetKey(KeyCode.RightControl) || Input.GetKey(KeyCode.LeftControl)) && Input.GetKeyDown(KeyCode.E))
+        {
+            ARNativePlugin.arwSetedgeDetectionAlghoritmEnabled(true);
+            notifierText.NotifyEdgeDetectionChanged(true);
+        }
+        if ((Input.GetKey(KeyCode.RightControl) || Input.GetKey(KeyCode.LeftControl)) && Input.GetKeyDown(KeyCode.T))
+        {
+            ARNativePlugin.arwSetedgeDetectionAlghoritmEnabled(false);
+            notifierText.NotifyEdgeDetectionChanged(false);
+        }
     }
 
 }
