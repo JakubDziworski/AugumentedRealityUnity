@@ -109,11 +109,12 @@ public class ARCamera : MonoBehaviour
 	public byte[] OpticalParamsFileContents = new byte[0]; // Set by the Editor.
 	public float OpticalEyeLateralOffsetRight = 0.0f;
 	private Matrix4x4 opticalViewMatrix; // This transform expresses the position and orientation of the physical camera in eye coordinates.
-	
+    Camera c;
 
 	public bool SetupCamera(float nearClipPlane, float farClipPlane, Matrix4x4 projectionMatrix, ref bool opticalOut)
 	{
-		Camera c = this.gameObject.GetComponent<Camera>();
+		c = this.gameObject.GetComponent<Camera>();
+        
 		
 		// A perspective projection matrix from the tracker
 		c.orthographic = false;
@@ -250,6 +251,25 @@ public class ARCamera : MonoBehaviour
 			ApplyTracking();
 		}
 	}
+
+    void OnPreCull()
+    {
+        //c.ResetWorldToCameraMatrix();
+        //c.ResetProjectionMatrix();
+        //c.projectionMatrix = c.projectionMatrix * Matrix4x4.Scale(new Vector3(1, -1, 1));
+    }
+
+    // Set it to true so we can watch the flipped Objects
+    void OnPreRender()
+    {
+        GL.SetRevertBackfacing(true);
+    }
+
+    // Set it to false again because we dont want to affect all other cammeras.
+    void OnPostRender()
+    {
+        GL.SetRevertBackfacing(false);
+    }
 	
 }
 
