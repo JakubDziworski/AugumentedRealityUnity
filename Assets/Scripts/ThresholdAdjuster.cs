@@ -111,16 +111,16 @@ public class ThresholdAdjuster : MonoBehaviour
 
     void HandleMarkerDetectionModeSwitching()
     {
-        if ((Input.GetKey(KeyCode.RightControl) || Input.GetKey(KeyCode.LeftControl)) && Input.GetKeyDown(KeyCode.E))
-        {
-            ARNativePlugin.arwSetedgeDetectionAlghoritmEnabled(true);
-            notifierText.NotifyEdgeDetectionChanged(true);
-        }
-        if ((Input.GetKey(KeyCode.RightControl) || Input.GetKey(KeyCode.LeftControl)) && Input.GetKeyDown(KeyCode.T))
-        {
-            ARNativePlugin.arwSetedgeDetectionAlghoritmEnabled(false);
-            notifierText.NotifyEdgeDetectionChanged(false);
-        }
+        //if ((Input.GetKey(KeyCode.RightControl) || Input.GetKey(KeyCode.LeftControl)) && Input.GetKeyDown(KeyCode.E))
+        //{
+        //    ARNativePlugin.arwSetedgeDetectionAlghoritmEnabled(true);
+        //    notifierText.NotifyEdgeDetectionChanged(true);
+        //}
+        //if ((Input.GetKey(KeyCode.RightControl) || Input.GetKey(KeyCode.LeftControl)) && Input.GetKeyDown(KeyCode.T))
+        //{
+        //    ARNativePlugin.arwSetedgeDetectionAlghoritmEnabled(false);
+        //    notifierText.NotifyEdgeDetectionChanged(false);
+        //}
     }
 
 }
