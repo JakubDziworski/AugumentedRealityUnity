@@ -4,6 +4,7 @@ using System.Linq;
 using Assets.Utils;
 using UnityEngine.UI;
 using Assets.Utils;
+using System.Collections.Generic;
 
 public class Puppet : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class Puppet : MonoBehaviour
 
     public Animation Animation;
     public GameObject bubblePrefab;
+    public string helloPhrase = "Cześć";
 
     private State state;
     private const float minDistanceToExitGreet = 11.5f; //Minimum distance to greet when leaving
@@ -65,15 +67,16 @@ public class Puppet : MonoBehaviour
         mGreeter = greeter;
         ShowGreetingBubble();
         minDistanceToGreet = minDistanceToExitGreet;
-        Animation.Play();
+        if(Animation != null) Animation.Play();
         updateAction = GreetUpdate;
         state = State.Greeting;
     }
 
+    System.Random random = new System.Random();
     private void ShowGreetingBubble()
     {
-        speechBubble.Show();
-        speechBubble.GetComponentInChildren<Text>().text = "Cześć " + mGreeter.name;
+        speechBubble.Show();        
+        speechBubble.GetComponentInChildren<Text>().text = helloPhrase+", " + mGreeter.name;
     }
 
     private void HideGreetingBubble()
